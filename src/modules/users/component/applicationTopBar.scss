@@ -1,0 +1,65 @@
+.tenant-top-bar{
+    width: 100%;
+}
+
+.tenant-top-bar .txt-tenant-header{
+    font-size: 25px;
+    color: black;
+    position: relative;
+    left: 20px;
+    display: inline-block;
+    font-family: 'nunito-semiBold';
+    text-transform: capitalize;
+}
+
+.tenant-top-bar .left-bar{
+    display: inline-flex;
+}
+
+.tenant-top-bar .menu-bar-icon{
+    -webkit-mask-box-image: url('../../../image/flowDesigner/menu.svg');
+    background-color: black;
+    height: 12px;
+    width: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+.btn-box{
+    float: right;
+}
+
+.btn-add-tenant{
+    background-image: linear-gradient(#2799f2, #0C77E3);
+    padding: 0px 25px;
+    border-radius: 2px;
+    color: white;
+    line-height: 34px;
+    position: relative;
+    top: 12px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 34px;
+    font-size: 11px;
+    font-family: nunito-black;
+    text-transform: uppercase;
+}
+.btn-face-tenant{
+    padding: 0px 25px;
+    border-radius: 2px;
+    color: #2799f2;
+    border: 1px solid #2799f2;
+    line-height: 34px;
+    position: relative;
+    top: 12px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 34px;
+    font-size: 11px;
+    margin-right: 10px;
+    font-family: nunito-black;
+    text-transform: uppercase;
+}

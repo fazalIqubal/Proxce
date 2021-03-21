@@ -1,0 +1,17 @@
+.application-container.connection-box{
+	.coulmn-icon{
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		background-color: #bcc9d9;
+		border-radius: 4px;
+		text-align: center;
+
+		img{
+				width: 25px;
+				height: 25px;
+				position: relative;
+				bottom: 1px;
+		}
+	}
+}

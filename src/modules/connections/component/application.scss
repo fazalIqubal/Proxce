@@ -1,0 +1,33 @@
+.connection-container{
+	.coulmn-icon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #bcc9d9;
+    border-radius: 4px;
+    text-align: center;
+
+    img{
+			width: 15px;
+			height: 15px;
+			position: relative;
+			bottom: 1px;
+    }
+	}
+
+	.ant-table-row>td:nth-child(1){
+		width:6%;
+	}
+
+	.ant-btn.btn-save{
+		background: transparent linear-gradient(180deg, #249AF3 0%, #007DDC 100%) 0% 0% no-repeat padding-box;
+		border: 1px solid #0B87E4;
+		border-radius: 3px;
+		opacity: 1;
+		font-family: "nunito-black";
+		margin-top: 18px;
+		width: 90px;
+		font-size: 11px;
+	}
+	
+}

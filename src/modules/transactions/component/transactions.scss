@@ -1,0 +1,374 @@
+.application-container.users-container{
+	.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+		padding: 10px 16px;
+	}
+
+	.ant-table-column-has-actions > div{
+		border-bottom: unset;
+	}
+
+	.ant-table-thead > tr > th:nth-last-child(-n+2){
+			width: 17%;
+	}
+
+	.bullet{    
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		float: left;
+	}
+
+	.bullet.green{
+		background-color: #15d215;
+	}
+
+	.bullet.red{
+		background-color: #e64831;
+	}
+
+	.user-name{
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.app-name{
+		margin-left: 25px;
+	}
+}
+
+.application-detail.user-detail{
+	label{
+		line-height: 1;
+	}
+
+	.user-status{
+		color: #66c76e;
+		font-size: 14px;
+		margin-left: 15px;
+		background-color: #f8f9fa;
+		padding: 3px 8px;
+	}
+	
+	.tab-section .customer-info .form-textfield{
+		margin-bottom: 15px;
+	}
+
+	.tab-section .customer-info .from-left-col{
+		margin-bottom: 10px;
+	}
+	
+	.verification{
+		color: #e74b41;
+	}
+
+	.copy-icon.edit.overide {
+    bottom: 53px;
+	}
+
+	.success-icon.position{
+		bottom: 30px;
+	}
+
+	.success-icon.position.error {
+    top: 15px;
+	}
+
+	.feild-desc{
+		margin-bottom: 22px;
+	}
+
+	.tab-section .customer-info .btn-save{
+		margin-top: 10px;
+	}
+
+	.ant-table-thead > tr > th:nth-child(1), 
+	.ant-table-tbody > tr > td:nth-child(1){
+		padding: 10px 16px;
+	}
+
+	.connection-container{
+		padding: 0 30px;
+	}
+
+	.raw-json{
+		padding: 20px 30px;
+
+		.string-json{
+			background-color: #fafbfc;
+			padding: 20px;
+		}
+	}
+
+	.user-endpoint .ant-table-thead>tr>th{
+		width: 33%;
+	}
+
+	.user-history .ant-table-thead>tr>th{
+		width: 21%;
+	}
+	.button-box{
+		margin-top: 20px;
+	}
+	.clear-btn{
+		border-radius: 4px !important;
+		color: #40a9ff;
+		background-color: #fff;
+		border-color: #40a9ff;
+		margin-right: 20px;
+		font-weight: 600;
+		font-size: 12px;
+	}
+	.cerate-group-btn{
+		border-radius: 4px !important;
+		color: #40a9ff;
+		background-color: #fff;
+		border-color: #40a9ff;
+		margin-right: 20px;
+		font-weight: 600;
+		font-size: 11px;
+		display:inline-block;
+	}
+	.clear-btn.ant-btn.disabled{
+		color: rgba(0, 0, 0, 0.25);
+		background-color: #f5f5f5;
+		border-color: #d9d9d9;
+	}
+	.user-avatar{
+        width: 85px;
+        height: 84px;
+		background-color: #F2F6FA;
+		padding: 5px;
+	  }
+	.user-delete-btn{
+		width: 36px;
+		height: 36px;
+		background: #F2F2F2;
+		border-radius: 13px;
+		display: inline-block;
+		position: absolute;
+		margin-top: -2px;
+		cursor: pointer;
+	}
+	.user-delete-btn:hover{
+		background: #f9eded;
+	}
+	.user-delete-btn.disabled{
+		cursor: not-allowed;
+		background: #F2F2F2;
+		pointer-events: none;
+	}
+	.user-delete-button{
+        -webkit-mask-image: url('../../../image/delete.svg');
+        -webkit-mask-repeat: no-repeat;
+        width: 14px;
+        height: 19px;
+		background-color: #E42A31;
+		-webkit-mask-size: 14px;
+		position: relative;
+		left: 11px;
+		top: 8px;
+	  }
+	  .delete-count{
+		  display: inline-block;
+		  position: relative;
+          margin-left: 50px;
+          color: #151515;
+          font-size: 13px;
+	  }
+	  .face-user-right-containt{
+		text-align: right;
+		color: #2E394C;
+		font-size: 17px;
+	  }
+	  .face-user-container{
+		  margin-top: 10px;
+	  }
+	  .face-online{
+		  height:13px;
+		  width:13px;
+		  border-radius: 50%;
+		  background-color: #00C264 ;
+		  position: absolute;
+		  top: 6px;
+		  left: 65px
+	  }
+	  .face-code{
+		height: 17px;
+		width: 25px;
+		border-radius: 16%;
+		background-color: #4B81A7;
+		position: relative;
+		top: 28px;
+		left: -56px;
+		display: inline-block;
+		text-align: center;
+		font-size: 13px;
+		color: #ffffff;
+	}
+	  .face-offline{
+		height:16px;
+		width:16px;
+		border-radius: 50%;
+		background-color: #E42A31  ;
+		position: absolute;
+		top: 5px;
+		right: 40px;
+	}
+	  .face-background{
+		  position: relative;
+	  }
+	  .face-table .ant-table-column-has-actions > div{
+		border-bottom: unset;
+	  }
+} 
+
+.user-header-custom.customer-header{
+	padding: 20px 120px 20px 30px !important;
+}
+.table-box.users{
+	
+		img{
+				width: 80px;
+				height: 80px;
+				position: relative;
+				bottom: 1px;
+				cursor: pointer;
+		
+	}
+}
+.full-view-avatar{
+	width: 420px;
+    margin-bottom: 40px;
+}
+.user-image-header img{
+	height: 100px;
+	width:100px;
+}
+.user-edit-icon{
+	-webkit-mask-image: url('../../../image/edit-icon.svg');
+	-webkit-mask-repeat: no-repeat;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    -webkit-mask-size: 15px;
+    right: 25px;
+    top: 40px;
+    display: inline-block;
+}
+.user-image-box{
+	display:inline-block;
+}
+.transactions-filter{
+	width:80%
+}
+.transactions-refresh-btn {
+    border-radius: 4px !important;
+    color: #fff;
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.transactions-clear-btn {
+    border-radius: 4px !important;
+    color: #40a9ff;
+    background-color: #fff;
+    border-color: #40a9ff;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.transactions-app-id{
+	color: #4b5564;
+    margin-left: 4px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.transactions-button-box {
+    margin-top: 20px;
+}
+
+.transaction-detail-box{
+	padding: 0px 30px;
+}
+.transaction-detail-first-txt{
+	font-size: 16px;
+	font-weight: 600;
+	color: #151515;
+	display: inline-block;
+	position: relative;
+	width: 20%;
+    margin-right: 22px;
+}
+.act-label-width{
+	width: 13%;
+}
+.transaction-detail-second-txt{
+	font-size: 16px;
+	color: #151515;
+	display: inline-block;
+}
+.transaction-detail-containt{
+	margin-top:20px;
+	margin-left: 22px;
+}
+.transaction-detail-image-heading {
+	font-size: 16px;
+	font-weight: 600;
+	color: #151515;
+	display: inline-block;
+	position: relative;
+}
+
+.capture-image-box{
+	width: 100%;
+	align-self: inherit;
+	min-height: 242px;
+	box-shadow: 0px 2px 5px #535F6E33;
+	margin: 20px 0;
+	display: flex;
+   }
+  .capture-image{
+	 width: 100px;
+	margin: auto;
+  }
+  .transaction-description-text{
+	  margin-top:60px;
+  }
+  .customer-name-status{
+	color: #00C264;
+	margin-left: 20px;
+  }
+  .group-detail .ant-tabs-nav{
+	font-family: "nunito-Bold";
+}
+.activity-log-status{
+	display: inline-flex;
+}
+.dropdown-level-txt{
+    font-size: 15px;
+    color: #151515;
+}
+.ant-select-enabled {
+    width: 80% !important;
+}
+.txt-customer {
+    color: #151515;
+    margin-bottom: 10px !important;
+}
+
+.transactions-refresh-btn:hover, .transactions-refresh-btn:focus, .transactions-refresh-btn:active {
+	background-color: #40a9ff;
+	color: #fff;
+	border-color: #40a9ff;
+}
+.transactions-clear-btn:hover, .transactions-clear-btn:focus, .transactions-clear-btn:active {
+	background-color: #fff;
+	color: #40a9ff;
+	border-color: #40a9ff;
+	background: #fff;
+}
+

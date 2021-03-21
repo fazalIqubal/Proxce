@@ -1,0 +1,141 @@
+.application-container.groups-container{
+	.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+		padding: 10px 16px;
+	}
+
+	.ant-table-column-has-actions > div{
+		border-bottom: unset;
+	}
+
+	.ant-table-thead > tr > th:nth-last-child(-n+2){
+			width: 17%;
+	}
+
+	.bullet{    
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		float: left;
+	}
+
+	.bullet.green{
+		background-color: #15d215;
+	}
+
+	.bullet.red{
+		background-color: #e64831;
+	}
+
+	.user-name{
+		width: 100%;
+	}
+
+	.app-name{
+		margin-left: 25px;
+	}
+	.group-name{
+		cursor: pointer;
+	}
+}
+
+.application-detail.group-detail{
+	label{
+		line-height: 1;
+	}
+
+	.user-status{
+		color: #66c76e;
+		font-size: 14px;
+		margin-left: 15px;
+		background-color: #f8f9fa;
+		padding: 3px 8px;
+	}
+	
+	.tab-section .customer-info .form-textfield{
+		margin-bottom: 15px;
+	}
+
+	.tab-section .customer-info .from-left-col{
+		margin-bottom: 10px;
+	}
+	
+	.verification{
+		color: #e74b41;
+	}
+
+	.copy-icon.edit.overide {
+    bottom: 53px;
+	}
+
+	.success-icon.position{
+		bottom: 30px;
+	}
+
+	.success-icon.position.error {
+    top: 15px;
+	}
+
+	.feild-desc{
+		margin-bottom: 22px;
+	}
+
+	.tab-section .customer-info .btn-save{
+		margin-top: 10px;
+	}
+
+	.ant-table-thead > tr > th:nth-child(1), 
+	.ant-table-tbody > tr > td:nth-child(1){
+		padding: 10px 16px;
+	}
+
+	.connection-container{
+		padding: 0 30px;
+	}
+
+	.raw-json{
+		padding: 20px 30px;
+
+		.string-json{
+			background-color: #fafbfc;
+			padding: 20px;
+		}
+	}
+
+	.user-endpoint .ant-table-thead>tr>th{
+		width: 33%;
+	}
+
+	.user-history .ant-table-thead>tr>th{
+		width: 21%;
+	}
+	.group-header-custom.customer-header{
+		padding: 20px 120px 20px 30px !important;
+	}
+} 
+.create-endpoint{
+	.ant-modal-content .MuiInputLabel-formControl{
+		top: 0px;
+	}
+	.error-msg {
+		color: red;
+		margin-top: 5px;
+	}
+}
+.ant-dropdown-menu-item-group{
+	clear: both;
+	padding:0;
+    margin: 0;
+    padding: 0px 5px;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: normal;
+    font-size: 14px;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.ant-dropdown-trigger:active{
+	background: #ffffff;
+	background-color:#DAE0E5;
+	color: #2E394C;
+}

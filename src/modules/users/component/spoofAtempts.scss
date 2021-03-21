@@ -1,0 +1,206 @@
+@import '../../../variables.scss';
+.datetime{
+    width: 15%;
+    margin: 0px 10px;
+}
+.anticon-check-circle {
+    color: #52c41a;
+    font-size: 20px;
+}
+.anticon-exclamation-circle{
+    color: #f5222d;
+    font-size: 20px;
+}
+.import-upload-file-link{
+    text-decoration: underline;
+    color: #0186EA;
+}
+.bWPPed .ant-input{
+    padding: 20px;
+}
+.dropdown-level-txt{
+    font-size: 15px;
+    color: #151515;
+}
+.ant-calendar-picker {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    display: inline-block;
+    outline: none;
+    cursor: text;
+    transition: opacity 0.3s;
+    width: 80%;
+}
+.face-background img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 1px;
+    cursor: pointer;
+}
+.report-container .customize-select .select-input.ant-select.ant-select-enabled{
+    margin-top:0px;
+}
+.report-container .select-input.ant-select.ant-select-enabled {
+    width: 80%;
+}
+.report-container .select-input.ant-select > div {
+    height: 40px;
+}
+
+.spoof-detail{}	
+	.group-detail{
+		padding: 20px 0px;
+		background-color: #FFFFFF;
+		height: 100%;
+	}
+	.spoof-detail .back-btn .anticon {
+		vertical-align: 1px;
+	}
+	.back-btn {
+		font-family: "nunito-regular";
+		padding: 0 30px;
+		color: #798AA0;
+		cursor: pointer;
+		font-size: 11px;
+		display: inline-block;
+	}
+	.customer-details{
+		display: inline-block;
+		padding: 20px 0px;
+		.customer-name{
+		  text-align: left;
+		  letter-spacing: 0;
+		  color: #363636;
+		  font-family: $font-family-nunito-regular;
+		  font-size: 20px;
+		}
+		.customer-id{
+		  color: #798AA0;
+		  font-size: 12px;
+		  font-family: $font-family-nunito-italic
+		}
+			.app-id {
+				color: #bcc9d9;
+				font-weight: 600;
+				font-family: monospace;
+				float: left;
+				display: inline-block;
+		}
+		.app-id-txt{
+			color: #2E394C;
+		    margin-left: 8px;
+		}
+		.ant-tabs-nav .ant-tabs-tab-active {
+			color: #1890ff;
+			font-weight: 500;
+		}
+		.tab-section .ant-tabs-nav .ant-tabs-tab {
+			font-size: 13px;
+		}
+		
+		
+	  }
+	  .spoof-detail .spoof-detail-box{
+		padding: 0px 30px;
+	}
+	.spoof-detail-first-txt{
+		font-size: 16px;
+        font-weight: 600;
+		color: #151515;
+		display: inline-block;
+		position: relative;
+		width: 20%;
+	}
+	.spoof-detail-second-txt{
+		font-size: 16px;
+		color: #151515;
+		display: inline-block;
+	}
+	.spoof-detail-containt{
+		margin-top:20px;
+		margin-left: 22px;
+    }
+    .spoof-detail-image-heading {
+        font-size: 16px;
+        font-weight: 600;
+        color: #151515;
+        display: inline-block;
+        position: relative;
+    }
+
+    .capture-image-box{
+        width: 100%;
+        align-self: inherit;
+        min-height: 242px;
+        box-shadow: 0px 2px 5px #535F6E33;
+        margin: 20px 0;
+        display: flex;
+       }
+      .capture-image{
+         width: 100px;
+        margin: auto;
+      }
+      .spoof-description-text{
+          margin-top:60px;
+      }
+      .customer-name-status{
+        color: #00C264;
+        margin-left: 20px;
+	  }
+	  .group-detail .ant-tabs-nav{
+		font-family: "nunito-Bold";
+	}
+	.activity-log-status{
+		display: inline-flex;
+	}
+	.spoof-button-box {
+		margin-top: 20px;
+	}
+	.spoof-refresh-btn {
+		border-radius: 4px !important;
+		color: #fff;
+		background-color: #40a9ff;
+		border-color: #40a9ff;
+		margin-right: 20px;
+		font-weight: 600;
+		font-size: 12px;
+	}
+	.spoof-clear-btn {
+		border-radius: 4px !important;
+		color: #40a9ff;
+		background-color: #fff;
+		border-color: #40a9ff;
+		margin-right: 20px;
+		font-weight: 600;
+		font-size: 12px;
+	}
+	.spoof-detail-box{
+		padding: 0px 30px;
+	}
+	
+	.act-label-width{
+		width: 13%;
+	}
+	.spoof-clear-btn:hover, .spoof-clear-btn:focus, .spoof-clear-btn:active{
+		background-color: #fff;
+		color: #40a9ff;
+		border-color: #40a9ff;
+		background: #fff;
+	}
+	.spoof-refresh-btn:hover, .spoof-refresh-btn:focus, .spoof-refresh-btn:active {
+		background-color: #40a9ff;
+		color: #fff;
+		border-color: #40a9ff;
+	}
+	
+	
+	
+	

@@ -1,0 +1,167 @@
+.report-container{
+    .txt-condition{
+			margin: 20px 0 10px;
+			font-family: nunito-bold;
+		}
+		
+		.txt-customer{
+			font-family: nunito-semiBold;
+		}
+    
+    .select-input.ant-select.ant-select-enabled{
+        width: 220px;
+    }
+
+    .customize-select{
+        .select-input.ant-select.ant-select-enabled{
+            margin-top: 20px;
+        }
+    }
+	
+    .select-input.ant-select > div{
+        height: 43px;
+        padding: 6px 0 5px;
+		}
+		
+		.select-input.mode-input>div{
+			background-color: #dae0e6;
+		}
+
+    .MuiFormControl-marginNormal {
+        width: 220px;
+        margin-bottom: 0px;
+
+        .MuiOutlinedInput-root{
+            height: 43px;
+        }
+
+        .MuiOutlinedInput-notchedOutline,
+        .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+        .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+            border-color: rgb(223, 223, 224);
+            border-width: 1px;
+        }
+		}
+
+		.mode-bullet{
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			display: inline-block;
+    	margin-right: 25px;
+		}
+		
+		.Online-bullet{
+			background-color: #65c465;
+		}
+
+		.Offline-bullet{
+			background-color: #f39724;
+		}
+
+		.btn-update{
+			border-radius: 4px !important;
+			margin-right: 15px;
+			font-weight: 600;
+			font-size: 12px;
+			background-image: linear-gradient(#2799f2, #0C77E3);
+		}
+
+		.button-box{
+			margin-top: 60px;
+		}
+
+		.clear-btn{
+			border-radius: 4px !important;
+			color: #40a9ff;
+			background-color: #fff;
+			border-color: #40a9ff;
+			margin-right: 60px;
+			font-weight: 600;
+			font-size: 12px;
+		}
+
+		.ant-table-column-has-actions > div{
+			border-bottom: unset;
+			font-weight: 500;
+		}
+
+		.ant-table-thead > tr > th:nth-child(2), .ant-table-tbody > tr > td:nth-child(2){
+			padding: 10px 16px;
+		}
+
+		.dropdown{
+			display: inline-block;
+			margin-top: 20px;
+
+			.mode-button{
+				height: 43px;
+				width: 220px;
+				background-color: #dae0e6;
+				border: 1px solid #dfdfe0;
+				color: #504d78;
+				font-size: 15px;
+				outline: none;
+				padding: 0 10px;
+				border-radius: 4px;
+
+				span{
+					float: left;
+				}
+			}
+
+			.down-dropdown-icon{
+				-webkit-mask-image: url('../../../image/down-icon.svg');
+				 object-fit: contain;
+				 -webkit-mask-size: 10px;
+				 -webkit-mask-repeat: no-repeat;
+				 background-color: #363636;
+				 width: 10px;
+				 height: 10px;
+				 position: absolute;
+				 right: 15px;
+				 top: 16px;
+				 transition-duration: 0.3s;
+			}
+
+			.dropdown-menu.show{
+				width: 220px;
+				padding: 0;
+			}
+
+			.dropdown-item{
+				padding: 10px;
+			}
+
+			.dropdown-item.active, .dropdown-item:active{
+				background-color: #f8f9fa;
+			}
+		}
+		.dropdown.show .down-dropdown-icon.up-dropdown-icon {
+			transform: rotate(180deg);
+			transition-duration: 0.3s;
+		}
+
+		.MuiInput-underline:before,
+		.MuiInput-underline:hover:not(.Mui-disabled):before{
+			border-bottom:unset;
+		}
+
+		.datetime .MuiFormControl-root{
+			margin-top: 20px;
+			width: 220px;
+
+			.MuiInput-input{
+				border: 1px solid #dfdfe0;
+				padding: 6px 10px;
+				border-radius: 4px;
+				height: 29px;
+			}
+
+			.MuiInput-underline:after{
+				border-bottom: unset;
+			}
+		}
+
+	
+}

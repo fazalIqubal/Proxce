@@ -1,0 +1,46 @@
+.types.models{
+	text-align: center;
+	padding: 0px 110px;
+
+	.pull-left{
+		float: left;
+	}
+	.learn-box.margin{
+		margin-right: 32px;
+	}
+
+	.learn-box{
+		margin-top: 10px;
+		
+		.txt-learn{
+			font-size: 12px;
+			color: #798AA0;
+			cursor: pointer;
+			display: inline-block;
+			border-bottom: 1px solid #798AA0;
+			line-height: 1;
+		}
+	}
+}
+
+.modal-a-icon{
+	background-image : url('../../../image/ModelA.png');
+	background-size: 42px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 35px;
+	width: 41px;
+	position: relative;
+	top: 4px;
+}
+
+.modal-b-icon{
+	background-image : url('../../../image/ModelB.png');
+	background-size: 42px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 35px;
+	width: 41px;
+	position: relative;
+	top: 4px;
+}

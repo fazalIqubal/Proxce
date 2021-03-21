@@ -1,0 +1,64 @@
+{
+  "name": "platform-portal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/lab": "^4.0.0-alpha.48",
+    "antd": "^3.26.15",
+    "aws-amplify": "^2.3.0",
+    "aws-amplify-react": "^3.1.9",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "chai": "^4.2.0",
+    "clone": "^2.1.2",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.1",
+    "jsoneditor": "^8.6.7",
+    "jsoneditor-react": "^3.0.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
+    "react-dom": "^16.13.1",
+    "react-draft-wysiwyg": "^1.14.4",
+    "react-dropzone": "^11.0.1",
+    "react-intl": "^3.12.1",
+    "react-json-pretty": "^2.2.0",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.2.0",
+    "react-smooth-scrollbar": "^8.0.6",
+    "react-throttle": "^0.3.0",
+    "react-window-size-listener": "^1.5.4",
+    "redux": "^4.0.5",
+    "redux-react-hook": "^3.4.0",
+    "redux-thunk": "^2.3.0",
+    "smooth-scrollbar": "^8.5.2",
+    "styled-components": "^4.4.1",
+    "styled-theme": "^0.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+@import '../../../variables.scss';
+
+.customer-detail{
+  padding: 20px 0px;
+  background-color: $white-color;
+  height: 100%;
+  .back-btn{
+      font-family: $font-family-nunito-regular;
+      padding: 0 30px;
+      color: #798AA0;
+      cursor: pointer;
+      font-size: 11px;
+      display: inline-block;
+
+      .anticon{
+        vertical-align: 1px;
+      }
+  }
+  .customer-header{
+    padding: 20px 30px;
+    .customer-image-caitainer{
+      display: inline-block;
+      vertical-align: top;
+      background-color: #f2f6fa;
+      padding: 5px;
+      .user-avatar{
+        -webkit-mask-image: url('../../../image/user.svg');
+        -webkit-mask-repeat: no-repeat;
+        width: 85px;
+        height: 84px;
+        background-color: #5FB0E5;
+      }
+    }
+    
+    .customer-details{
+      display: inline-block;
+      padding-left: 10px;
+      .customer-name{
+        text-align: left;
+        letter-spacing: 0;
+        color: #363636;
+        font-family: $font-family-nunito-regular;
+        font-size: 20px;
+      }
+      .customer-id{
+        color: #798AA0;
+        font-size: 12px;
+        font-family: $font-family-nunito-italic
+      }
+    }
+  }
+  .action-item{
+    float: right;
+    color: #2E394C;
+    font-family: "nunito-semiBold";
+    >button{
+      width: 150px;
+      background-color: #dae0e6;
+      text-align: left;
+      height: 40px;
+      .anticon.anticon-down{
+        text-align: right;
+        float: right;
+        margin-top: 4px;
+      }
+    }
+    .ant-btn:hover, .ant-btn:focus {
+      color: unset;
+      border-color: #dae0e6;
+    }
+  }
+}
+
+.tenant-action-menu{
+  padding:  0;
+  color: #2E394C;
+  font-family: "nunito-semiBold";
+  .ant-dropdown-menu-item-active{
+    background-color: #F8F9FA;
+  }
+  .ant-dropdown-menu-item{
+    padding: 10px;
+  }
+  .ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover{
+    background-color: #F8F9FA;
+  }
+}
+
+
+.tab-section{
+  .ant-tabs-nav{
+    font-family: "nunito-Bold";
+    .ant-tabs-tab{
+      font-size: 13px;
+    }
+  }
+  
+  .customer-info{
+    padding: 20px 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E6EAEE; 
+    .from-left-col{
+      padding-right: 5px;
+    }
+    .from-right-col{
+      padding-left: 5px;
+    }
+
+    .from-left-col.pd-20{
+      padding-right: 25px;
+    }
+
+    .MuiOutlinedInput-input{
+      padding: 14px;
+      font-size: 14px;
+    }
+
+    .MuiInputLabel-formControl{
+      top: -7px;
+    }
+
+    .MuiFormLabel-root{
+      font-size: 14px;
+    }
+
+    .MuiFormControl-marginNormal{
+      margin-bottom: 0;
+      margin-top: 0px;
+    }
+
+    .MuiFormHelperText-contained{
+      margin: 3px 14px 0;
+    }
+
+    .MuiFormHelperText-root{
+      font-size: 11px;
+    }
+
+    .MuiInputLabel-formControl.MuiInputLabel-shrink{
+      top: 0px !important;
+    }
+
+    .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+      border-color: rgba(0, 0, 0, 0.23);
+    }
+    
+    .MuiOutlinedInput-notchedOutline {
+        border-color: rgba(39, 35, 35, 0.13);
+    }
+    
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline  {
+        border-color: rgba(0, 0, 0, 0.23);
+        border-width: 1px;
+    }
+
+    .MuiFormLabel-root.Mui-focused{
+      color: #1890ff;
+    }
+
+    .MuiInputBase-input.Mui-disabled{
+      background-color: #f8f9fa;
+    }
+
+    .MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-notchedOutline{
+      border-color: #f8f9fa;
+    }
+
+    .form-textfield{
+      width:100%;
+      font-size: 10px;
+      margin-bottom: 15px;
+    }
+
+    legend {
+      line-height: 11px;
+      border-bottom: 0;
+    }
+
+    .btn-save{
+      background: transparent linear-gradient(180deg, #249AF3 0%, #007DDC 100%) 0% 0% no-repeat padding-box;
+      border: 1px solid #0B87E4;
+      border-radius: 3px;
+      opacity: 1;
+      float: right;
+      font-family: $font-family-nunito-black;
+      margin-top: 18px;
+      width: 90px;
+      font-size: 11px;
+    }
+  }
+}
+
+.tenant-del{
+  margin: 20px 30px 20px 14px;
+  width: 68%;
+}

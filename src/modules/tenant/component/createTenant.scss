@@ -1,0 +1,409 @@
+.txt-header{
+    font-size: 25px;
+    text-align: center;
+    color: #2E394C;
+    margin-bottom: 25px;
+    font-family: 'nunito-semiBold';
+}
+
+.MuiFormControl-marginNormal{
+    width: 100%;
+}
+.import-region-select{
+    width: 70%;
+    margin-top: 15px;  
+}
+
+.MuiFormControl-root.region-select{
+    width: 100%;
+    margin-top: 15px;
+
+    .MuiFormLabel-root.Mui-focused,
+    .MuiInputLabel-formControl.MuiInputLabel-shrink {
+        background-color: white;
+        padding: 0 10px;
+    }
+
+    .MuiSelect-select:focus{
+        background-color: unset;
+    }
+}
+.MuiFormControl-root.region-download-select{
+    width: 75%;
+    margin-top: 15px;
+
+    .MuiFormLabel-root.Mui-focused,
+    .MuiInputLabel-formControl.MuiInputLabel-shrink {
+        background-color: white;
+        padding: 0 10px;
+    }
+
+    .MuiSelect-select:focus{
+        background-color: unset;
+    }
+}
+
+.create-tenant .MuiPaper-root.MuiMenu-paper.MuiPaper-rounded{
+    top: 430.5px !important;
+}
+
+.cancle-btn {
+    color: #40a9ff;
+    background-color: #fff;
+    border-color: #40a9ff;
+    width: 35%;
+    margin-right: 60px;
+    height: 34px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.create-btn{
+    background-image: linear-gradient(#2a94e4e3, #0675c7);
+    font-size: 11px;
+    font-weight: 600;
+    float: left;
+    width: 35%;
+    margin-left: 60px;
+    height: 34px;
+}
+
+.ant-modal-body{
+    padding: 35px 50px;
+    padding-bottom: 0px;
+}
+
+.ant-modal-footer{
+    padding: 20px 16px;
+    border-top: unset;
+}
+
+.create-tenant,
+.invite-tenant{
+    .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+        border-color: rgba(0, 0, 0, 0.23);
+    }
+    
+    .MuiOutlinedInput-notchedOutline {
+        border-color: rgba(39, 35, 35, 0.13);
+    }
+    
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline  {
+        border-color: rgba(0, 0, 0, 0.23);
+        border-width: 1px;
+    }
+} 
+
+.success-icon{
+    background-image: url('../../../image/success.svg');
+    height: 15px;
+    width: 15px;
+    background-size: 15px;
+}
+
+.success-icon.position{
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
+
+.success-icon.position.error{
+    top: 28px;
+}
+
+.success-icon.error{
+    background-image: url('../../../image/error.svg');
+    background-repeat: no-repeat;
+}
+
+.position-rel{
+    position: relative;
+}
+
+.user-position-rel{
+    position: relative;
+}
+
+.ant-modal-content{
+
+    .MuiOutlinedInput-input{
+        padding: 12px 14px 12px;
+    }
+    
+    .MuiInputLabel-formControl{
+        top: -5px;
+    }
+    
+    .MuiFormLabel-root{
+        font-size: 14px;
+    }
+    
+    .MuiFormControl-marginNormal{
+        margin-bottom: 0;
+    }
+    
+    .MuiFormHelperText-contained{
+        margin: 3px 14px 0;
+    }
+    
+    .MuiFormHelperText-root{
+        font-size: 11px;
+    }
+    
+    .MuiFormControl-marginNormal{
+        margin-top: 15px;
+    }
+    
+    .MuiInputLabel-formControl.MuiInputLabel-shrink{
+        top: 0px !important;
+    }
+    
+     .MuiInputBase-input{
+        color: #475162;
+    }
+    
+     .MuiFormLabel-root.Mui-focused{
+        color: #1890ff;
+    }
+
+    .ant-select{
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .ant-select-selection--single{
+        padding: 4px 0;
+        height: unset;
+        border-color: rgba(39, 35, 35, 0.13);
+    }
+    .ant-select-selection:hover{
+        border-color: rgba(0, 0, 0, 0.23);
+    }
+
+    .ant-select-selection-selected-value{
+        font-size: 14px;
+    }
+
+    .ant-select-selection__placeholder{
+        color: rgba(0, 0, 0, 0.54);
+    }
+}
+.file {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 2.5rem;
+}
+.user-upload-file{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    float: right;
+}
+.user-download-file{
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: 15px;
+}
+.user-upload-btn{
+    float: right;
+    border: 1px solid #0581DF;
+    padding: 10px 30px;
+    color: #0581DF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.user-download-btn{
+    float: right;
+    border: 1px solid #0581DF;
+    padding: 10px 16px;
+    color: #0581DF;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.form-csv-text{
+    color: #BCC9D9;
+    font-style: italic;
+}
+.face-invalid-text{
+    color: #BCC9D9;
+    font-style: italic;
+    margin: 10px 0 20px 0;
+}
+.form-import-face-text{
+    color: #BCC9D9;
+    font-style: italic;
+    margin-top: 20px;
+}
+.form-face-err-text{
+    color: #E42A31;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+}
+.file-error-text{
+    position: relative; 
+    float: right; 
+    text-align: right; 
+    top: 10px; 
+    right: 10px;
+}
+.form-import-error-text{
+    color: #E42A31;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.form-import-success-text{
+    color: green;
+    font-style: italic;
+    margin-top: 20px;
+}
+.import-loder-box{
+    margin-top: 10px;
+    font-size: 23px;
+    color: #0581DF;
+}
+.import-loder-txt{
+    margin-left: 20px;
+    color: #2E394C;
+    font-size: 16px;
+}
+
+.file {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 20px;
+}
+.file input {
+    min-width: 14rem;
+    margin: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.file-custom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    height: 2.5rem;
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    border: .075rem solid #ddd;
+    border-radius: .25rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.file-custom.error{
+    border-color: #f44336;
+    color: #f44336;
+}
+.file-custom.error:before{
+    color: #f44336;
+    border: .075rem solid #f44336;
+}
+
+.file-custom.error:after{
+    color: #f44336;
+}
+.file-custom:before {
+    position: absolute;
+    top: -.075rem;
+    right: -.075rem;
+    bottom: -.075rem;
+    z-index: 6;
+    display: block;
+    content: "BROWSE";
+    height: 2.5rem;
+    padding: 9px 28px;
+    line-height: 1.5;
+    color: #1c89dc;
+    background-color: #ffffff;
+    border: .075rem solid #1886d9;
+    border-radius: 0 .25rem .25rem 0;
+}
+// .file-custom:after {
+//     content: "Select File";
+//     color: #b3b3b3;
+// }
+.user-avatar-image{
+    -webkit-mask-image: url('../../../image/user_preview.png');
+    -webkit-mask-repeat: no-repeat;
+    width: 85px;
+    height: 84px;
+    background-color: #5FB0E5;
+  }
+.toster-description-text{
+    position: relative;
+    top:-20px;
+}
+
+.ant-notification{
+    margin-left: 25% !important;
+    width: 50%;
+}
+.ant-notification-notice-btn{
+    margin-top: 0;
+}
+.toster-view-detail .error-toster-btn{
+    background-color: unset;
+    color: #727272;
+    font-weight: 600;
+    padding: 0 10px;
+    border: unset;
+    box-shadow: unset;
+}
+.ant-notification-notice-closable .ant-notification-notice-message {
+    padding-right: 0px;
+    width: 100%;
+}
+.toster-view-detail .ant-notification-close-x{
+    display: none;
+}
+.user-list-box .search-icon{
+    -webkit-mask-box-image: url('../../../image/search-icon.svg');
+    background-color: rgb(58, 43, 43);
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 16px;
+    left: 15px;
+}
+          
+.user-list-box .ant-select-selection{
+    padding: 6px 40px !important;
+}
+.user-list-box .search-icon-box{
+    border-right: 1px solid #d9d9d9;
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+}
+.MuiInputBase-input.Mui-disabled{
+    background-color: #f8f9fa;
+}
+.user-list-box .ant-select-selection--multiple .ant-select-selection__placeholder{
+    margin-left: 0px;
+}
+.user-list-box .ant-select-enabled{
+    width: 100% !important;
+}
+.invite-tenant .success-icon.position {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+}

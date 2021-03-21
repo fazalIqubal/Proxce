@@ -1,0 +1,35 @@
+.application-container {
+    .ant-table-row>td:nth-child(1){
+        width:6%;
+    }
+    
+    .coulmn-icon{
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-color: #bcc9d9;
+        border-radius: 4px;
+        text-align: center;
+
+        img{
+            width: 22px;
+            height: 22px;
+            position: relative;
+            border-radius: 4px;
+            top: 1px;
+        }
+    }
+    .app-type-name{
+        top: 2px;
+        position: relative;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .app-name{
+        cursor: pointer;
+    }
+ 
+   
+}

@@ -1,0 +1,128 @@
+@import '../../../variables.scss';
+
+.application-detail .customer-info.customize-tab{
+  .descriptions-input ::placeholder{
+    font-size: 11px;
+  }
+
+  padding: 15px 20px 30px;
+  border-bottom: unset;
+
+  .ant-table-thead > tr > th:nth-child(2), .ant-table-tbody > tr > td:nth-child(2),
+  .ant-table-thead > tr > th:nth-child(1), .ant-table-tbody > tr > td:nth-child(1) {
+    padding: 10px 16px;
+  }
+
+  .ant-table-thead >tr >th{
+    width: 20%;
+  }
+
+  .ant-table-tbody >tr >td:nth-child(4){
+    word-break: break-all;
+  }
+
+  .ant-table-thead >tr >th:nth-child(5){
+    width: 8%;
+  }
+
+  .field-header{
+    text-align: left;
+    font-family: $font-family-nunito-bold;
+    letter-spacing: 0;
+    color: #363636;
+    margin-bottom: 10px;
+  }
+  .padding-right-10{
+    padding-right: 10px;
+  }
+  .padding-10{
+    padding: 10px;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+  
+  .table-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .save-btn{
+    float: right;
+    padding: 0 20px;
+  }
+  
+  .ant-table-column-title{
+    font-size: 11px;
+    font-family: nunito-bold;
+  }
+
+  .field-container{
+    .form-textfield{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .add-button{
+      background: transparent linear-gradient(180deg, #249AF3 0%, #007DDC 100%) 0% 0% no-repeat padding-box;
+      border: 1px solid #0B87E4;
+      border-radius: 2px;
+      margin-top: 6px;
+      font-size: 11px;
+      font-family: nunito-black;
+    }
+
+    .select-input.ant-select>div{
+      padding: 5px 0;
+      height: 45px;
+      border: 1px solid #504a4a4a;
+      box-shadow: unset;
+      color: #000;
+    }
+
+    .select-input.error.ant-select>div {
+      border: 1px solid red;
+    }
+
+    .ant-select-selection__placeholder, .ant-select-search__field__placeholder{
+      color: #2E394C;
+      font-family: $font-family-nunito-semiBold;
+    }
+
+    .option-header{
+      text-align: left;
+      font-family: $font-family-nunito-semiBold;
+      letter-spacing: 0;
+      color: #798AA0;
+      margin-bottom: 10px;
+    }
+
+    .option-container{
+      ::placeholder {
+        color: #2E394C;
+        opacity: 1; /* Firefox */
+      }
+      .form-textfield{
+        background-color: #f8f9fa;
+        
+        .MuiOutlinedInput-notchedOutline{
+          border-color:#f8f9fa;
+        }
+        .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+          border-color:#f8f9fa;
+        }
+
+        .MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+          border-color: #f44336;
+        }
+      }
+    }
+    
+    .add-more{
+      color: #0186EA;
+      font-family: $font-family-nunito-semiBold;
+      cursor: pointer;
+    }
+  }
+}

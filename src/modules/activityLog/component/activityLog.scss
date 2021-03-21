@@ -1,0 +1,178 @@
+@import '../../../variables.scss';
+.activityLog-container{
+	.coulmn-icon{
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		background-color: #bcc9d9;
+		border-radius: 4px;
+		text-align: center;
+
+		img{
+				width: 25px;
+				height: 25px;
+				position: relative;
+				bottom: 1px;
+		}
+	}
+	
+	.top-header {
+		padding: 20px 30px;
+		background-color: white;
+		border-bottom: 1px solid #8080802e;
+		border-top: 1px solid #8080802e;
+	}
+	.search-box {
+		border: 1px solid #504a4a4a;
+		background-color: white;
+		padding: 8px 10px;
+		border-radius: 4px;
+		display: inline-flex;
+		width: 80%;
+	}
+	.search-box .search-icon{
+        -webkit-mask-box-image: url('../../../image/search-icon.svg');
+        background-color: gray;
+        height: 16px;
+        width: 16px;
+        position: relative;
+        top: 3px;
+	}
+	.search-box > input {
+		border: unset;
+		width: 100%;
+		outline: none;
+		padding-left: 10px;
+	}
+	.bottom-box{
+        background-color: white;
+        padding: 20px 30px;
+	}
+	.dropdown-level-txt{
+		font-size: 15px;
+		color: #151515;
+	}
+	.ant-calendar-picker {
+		margin: 0;
+		padding: 0;
+		color: rgba(0, 0, 0, 0.65);
+		font-size: 14px;
+		font-variant: tabular-nums;
+		line-height: 1.5;
+		list-style: none;
+		font-feature-settings: 'tnum', "tnum", "tnum";
+		position: relative;
+		display: inline-block;
+		outline: none;
+		cursor: text;
+		transition: opacity 0.3s;
+		width: 80%;
+	}
+	.ant-select{
+		width: 80%;
+	}
+	.ant-select-selection--single{
+		height: 40px;
+	}
+	.ant-select-selection-selected-value{
+		margin-top: 5px;
+	}
+	.ant-table-column-has-actions > div{
+		border-bottom: none;
+	}
+	.back-btn{
+		font-family: "nunito-regular";
+		padding: 0 30px;
+		color: #798AA0;
+		cursor: pointer;
+		font-size: 11px;
+		display: inline-block;
+	}
+	.customer-detail{
+		padding: 20px 0px;
+		height: 100%;
+	}
+	
+}
+.activity-detail{}	
+	.group-detail{
+		padding: 20px 0px;
+		background-color: #FFFFFF;
+		height: 100%;
+	}
+	.activity-detail .back-btn .anticon {
+		vertical-align: 1px;
+	}
+	.back-btn {
+		font-family: "nunito-regular";
+		padding: 0 30px;
+		color: #798AA0;
+		cursor: pointer;
+		font-size: 11px;
+		display: inline-block;
+	}
+	.customer-details{
+		display: inline-block;
+		padding: 20px 0px;
+		.customer-name{
+		  text-align: left;
+		  letter-spacing: 0;
+		  color: #363636;
+		  font-family: $font-family-nunito-regular;
+		  font-size: 20px;
+		}
+		.customer-id{
+		  color: #798AA0;
+		  font-size: 12px;
+		  font-family: $font-family-nunito-italic
+		}
+			.app-id {
+				color: #bcc9d9;
+				font-weight: 600;
+				font-family: monospace;
+				float: left;
+				display: inline-block;
+		}
+		.app-id-txt{
+			color: #2E394C;
+		    margin-left: 8px;
+		}
+		.ant-tabs-nav .ant-tabs-tab-active {
+			color: #1890ff;
+			font-weight: 500;
+		}
+		.tab-section .ant-tabs-nav .ant-tabs-tab {
+			font-size: 13px;
+		}
+		
+		
+	  }
+	  .activity-detail .activity-detail-box{
+		padding: 0px 100px;
+	}
+	.activity-detail-first-txt{
+		font-size: 16px;
+        font-weight: 600;
+		color: #151515;
+		display: inline-block;
+		position: relative;
+		width: 20%;
+	}
+	.activity-detail-second-txt{
+		font-size: 16px;
+		color: #151515;
+		display: inline-block;
+	}
+	.activity-detail-containt{
+		margin-top:20px;
+	}
+	.activityLog-container .date-filters{
+		margin-bottom: 20px;
+	}
+	.group-detail .ant-tabs-nav{
+		font-family: "nunito-Bold";
+	}
+	.activity-log-status{
+		display: inline-flex;
+	}
+	  

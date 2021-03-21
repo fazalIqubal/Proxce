@@ -1,0 +1,70 @@
+.datetime{
+    width: 15%;
+    margin: 0px 10px;
+}
+.anticon-check-circle {
+    color: #52c41a;
+    font-size: 20px;
+}
+.anticon-exclamation-circle{
+    color: #f5222d;
+    font-size: 20px;
+}
+.import-upload-file-link{
+    text-decoration: underline;
+    color: #0186EA;
+}
+.bWPPed .ant-input{
+    padding: 20px;
+}
+.dropdown-level-txt{
+    font-size: 15px;
+    color: #151515;
+}
+.validation{
+
+}
+.validation h2{
+    font-size: 18px;
+}
+.validation p{
+    font-size: 16px;
+}
+.validation p.button-content{
+    width: 100%;
+    height: 20px;
+    margin: 10px 0px;
+    display: block;
+}
+.validation p button{
+    width: 100%;
+    margin: 0px auto;
+    color: #fff;
+}
+.validation p button:focus,
+.validation p button:hover{
+    color: #fff;
+}
+.position-rel .button-content{
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    margin: 20px 0px 0px;
+}
+.position-rel .button-content button{
+    width: 100%;
+    margin: 0px auto;
+    color: #fff;
+}
+.position-rel .button-content button:focus,
+.position-rel .button-content button:hover{
+    color: #fff;
+}
+.position-rel .json-area{
+    display: block;
+    padding: 10px 30px;
+    margin: 0;
+    overflow: scroll;
+    height: 120px;
+}
